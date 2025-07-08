@@ -2,8 +2,8 @@ import json
 from datetime import datetime 
 import re
 
-library_input = 'D:\\kennguyen\\CODING\\exercise_3\\ex3_input.json'
-library_output = 'D:\\kennguyen\\CODING\\exercise_3\\ex3_output.json'
+library_input = 'D:\\kennguyen\\CODING\\github\\python\\data\\exercise_3\\ex3_input.json'
+library_output = 'D:\\kennguyen\\CODING\\github\\python\\data\\exercise_3\\ex3_output.json'
 
 with open(library_input,'r')as file:
     library_info = json.load(file)
