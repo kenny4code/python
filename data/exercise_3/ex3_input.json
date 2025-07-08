@@ -1,0 +1,32 @@
+[
+  {
+    "user_id": 1,
+    "name": "Alice",
+    "borrowed_books": [
+      {
+        "title": "The Great Gatsby Title",
+        "borrow_date": "2025-05-01",
+        "returned": true,
+        "price": 10.99
+      },
+      {
+        "title": "1984 Title",
+        "borrow_date": "2025-05-10",
+        "returned": false,
+        "price": 8.99
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "name": "Bob",
+    "borrowed_books": [
+      {
+        "title": "Brave New World",
+        "borrow_date": "2025-04-15",
+        "returned": false,
+        "price": 9.99
+      }
+    ]
+  }
+]

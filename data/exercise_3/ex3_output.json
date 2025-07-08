@@ -1,0 +1,15 @@
+{
+    "Alice book price": "19.98",
+    "Bob book price": "9.99",
+    "Most expensive book": 10.99,
+    "Converted dates": [
+        "2025-05-10",
+        "2025-05-01",
+        "2025-04-15"
+    ],
+    "Sorted dates (Newest to oldest)": [
+        "2025-05-10",
+        "2025-05-01",
+        "2025-04-15"
+    ]
+}
