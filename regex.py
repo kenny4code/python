@@ -9,17 +9,16 @@ import re
 # x = re.findall(pattern, text)  
 # print(x) 
 
+# Excellent job! Score = 10
 
-#Exercise 2: Find dates in DD/MM/YYYY format
+#Exercise 2: Find dates in DD/MM/YYYY format v
 text = "John was born on 12/05/1990 and his sister on 03/11/1995." 
 pattern = "\d{2}/\d{2}/\d{4}"
 x = re.findall(pattern, text)  
 print(x) 
 
 #Exercise 3: Validate a phone number
-text = "+1-800-555-1234"
-# 800-555-1234 
-#(800) 555-1234*
+text = "+1-800-555-1234" 
 pattern = "[\+\d-]?\d{3}-\d{3}-\d{4}"
 x = re.findall(pattern, text)  
 print(x) 
